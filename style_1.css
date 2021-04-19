@@ -1,0 +1,22 @@
+body
+{
+  margin: 5%;
+
+}
+
+
+ul.purpleIcon
+{
+  list-style: none;
+  list-style-image: url('Images/check-1-icon.png');
+}
+
+.purpleIcon li::marker {
+font-size: .5rem;
+}
+
+
+hr
+{
+margin: 4% 0;
+}

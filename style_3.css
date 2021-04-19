@@ -1,0 +1,29 @@
+body
+{
+  background-image: url("Images/background.jpg");
+  background-size: cover;
+}
+
+h1
+{
+  font-family: fantasy;
+}
+
+p
+{
+  color: yellow;
+  font-weight: bold;
+}
+
+div
+{
+  border: pink dashed 1px;
+}
+
+
+ul
+{
+  text-decoration: none;
+  display: inline-block;
+  cursor: wait;
+}
