@@ -1,0 +1,96 @@
+body
+{
+  width: 70%;
+  margin: auto;
+  background-color: #ffece5;
+
+}
+
+
+h1
+{
+  text-align: center;
+}
+
+.red
+{
+    color: red;
+    padding: 20px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+.blue
+{
+  color: blue;
+  padding: 20px;
+  background-color: yellow;
+  border-radius: 15px;
+}
+
+.purple
+{
+  color: purple;
+  padding: 20px;
+  background-color: gray;
+  border-radius: 15px;
+}
+
+
+.green
+{
+  color: green;
+  padding: 20px;
+  border: black solid 2px;
+  border-radius: 15px;
+}
+
+
+div:hover
+{
+  background-color: green;
+  color: white;
+}
+
+ a
+{
+  text-decoration:none;
+}
+
+
+a:hover
+{
+  color: white;
+}
+
+a:visited
+{
+  background-color: aqua;
+  color: black;
+}
+
+a:visited::before
+{
+  content: "\2713 ";
+}
+
+ a:active
+{
+font-size: 2em;
+font-weight: 500;
+}
+
+
+.uppercase
+{
+ text-transform: uppercase;
+}
+
+.learn
+{
+ /* border: black solid 2px; */
+ border-radius: 0% 100% 0% 100% / 49% 62% 38% 51% ;  /*Percentages generated at https://9elements.github.io/fancy-border-radius/#49.0.62.100--. <*/
+background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 1), rgba(0, 0, 255, 0));
+padding: 3% 8% 10% 8%;
+}
