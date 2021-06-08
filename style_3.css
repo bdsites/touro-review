@@ -2,28 +2,50 @@ body
 {
   background-image: url("Images/background.jpg");
   background-size: cover;
+  width: 70%;
+  margin: auto;
 }
 
 h1
 {
   font-family: fantasy;
+  text-align: center;
 }
 
 p
 {
-  color: yellow;
+  color: navy;
   font-weight: bold;
+  font-size: 1.2em;
+  background-color: rgb(187,221,247);
+  border-radius: 10px;
+  padding: 2%;
 }
+
+
 
 div
 {
-  border: pink dashed 1px;
+  border: black dashed 2px;
+  padding: 1.5%;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(187,221,247);
+    border-radius: 10px;
 }
 
 
-ul
+ul li
 {
   text-decoration: none;
   display: inline-block;
   cursor: wait;
+  padding: 1.5%;
+  background-color: white;
+}
+
+
+hr
+{
+margin: 4% 0;
 }

@@ -1,0 +1,27 @@
+.jumbotron
+{
+  background-color: beige !important;
+}
+
+
+.container-lg, .container-md
+{
+  margin-top: 5%;
+}
+
+
+.accordion
+{
+  margin-bottom: 5%;
+}
+
+
+.modal, .jumbotron
+{
+  margin: 5% auto;
+}
+
+h3
+{
+  margin-top: 5%;
+}

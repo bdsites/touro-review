@@ -1,0 +1,80 @@
+body
+{
+  background-color: #cdf2f6;
+  width: 85%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+
+.upper
+{
+  text-transform: uppercase;
+}
+
+
+.big
+{
+  font-size: 120%;
+}
+
+.bigger
+{
+  font-size: 140%;
+}
+
+.evenBigger
+{
+  font-size: 160%;
+}
+
+.biggest
+{
+  font-size: 180%;
+}
+
+.scriptFont
+{
+font-family: 'Dancing Script', cursive, serif;
+}
+
+.flower
+{
+  font-family: 'Indie Flower', sans-serif;
+}
+
+
+.floatLeft
+{
+  float: left;
+  margin-right: 2%;
+}
+
+
+
+.floatRight
+{
+  float: right;
+  margin-left: 2%
+}
+
+/* .center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.leftText
+{
+  width: 30%;
+  float: left;
+  margin-right: 2%;
+}
+
+.rightText
+{
+  width: 30%;
+  float: right;
+  margin-left:2%;
+}

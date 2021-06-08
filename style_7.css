@@ -1,0 +1,75 @@
+.birds
+ {
+   display: flex;
+ }
+
+.birdsFormatted
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bird
+{
+  margin: 1%;
+}
+
+.bird1:hover
+{
+  transition: all 3s;
+  transform: scale(1.3);
+}
+
+.bird2:hover
+{
+  transition: all 3s;
+  transform: scale(.6);
+}
+
+.bird3:hover
+{
+  transition: all 3s;
+  transform: rotate(720deg);
+}
+
+.bird4:hover
+{
+  transition: all 2s;
+  transform: skew(-50deg);
+}
+
+.bird5:hover
+{
+  transition: all 5s;
+  transform: scale(2);
+}
+
+.bird6:hover
+{
+  transition: all 3s;
+  transform-origin: left top;
+  transform: rotate(500deg);
+}
+
+.bird7:hover
+{
+  transition: all 2s;
+  transform: rotate(90deg) scale(2) translateY(-50%) translateX(50%);
+}
+
+
+.bird8:hover
+{
+  transition: all 3s;
+  display: none;
+}
+
+
+
+.birdsVertical
+{
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}

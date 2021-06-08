@@ -1,0 +1,76 @@
+.fixed
+{
+  background-color: red;
+  height: 80px;
+  width: 150px;
+  position: fixed;
+  /* margin-bottom: 5%;
+  margin-left: 150px; */
+  /* text-align: center; */
+
+}
+
+.relative
+{
+  position: relative;
+  background-color: blue;
+  height: 80px;
+  width: 150px;
+  top: 80px;
+  left: 150px;
+  /* margin-bottom: 5%;
+  margin-left: 150px; */
+}
+
+
+.static
+{
+  background-color: yellow;
+  height: 80px;
+  width: 150px;
+  position: static;
+  /* margin-bottom: 5%;
+  margin-left: 150px; */
+}
+
+.absolute
+{
+  background-color: green;
+  height: 80px;
+  width: 150px;
+  position: absolute;
+  /* margin-bottom: 5%;
+  margin-left: 150px; */
+}
+
+h2
+{
+  margin-top:16%;
+}
+
+/* mobile*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: orange;
+    font-size: .8em;
+    border: solid 2px black;
+  }
+}
+
+/*Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+  body {
+    background-color: purple; /* Yellow*/
+  }
+  .fixed
+  {
+    width: 300px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: beige;
+  }
+}

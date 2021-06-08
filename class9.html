@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Class 9 Review</title>
+    <link rel="stylesheet" type="text/css" href="style_9.css">
+  </head>
+  <body>
+
+<div class="sign-up">
+<h1>Forms</h1>
+<form action="" method="GET">
+
+First Name:
+<input type="text" name="firstName"><br />
+Last Name:
+<input type="text" name="lastName"><br />
+Email Address:
+<input type="email" name="email" required><br />
+Please create a password:
+<input type="password" name="password" minlength="6"><br />
+
+When would you like to attend classes?<br />
+<input type="radio" name="schedule" value="Mornings">Mornings<br />
+<input type="radio" name="schedule" value="Evenings">Evenings<br />
+
+<em>We can ask the same question as a Dropdown, like this:</em><br />
+When would you like to attend classes?<br />
+<select name="classes">
+    <option value="Mornings" name="Schedule">Mornings</option>
+    <option value="Evenings" name="Schedule">Evenings</option>
+</select>
+<br /><br /><br />
+What classes will you be joining?<br />
+<input type="checkbox" name="html">HTML<br />
+<input type="checkbox" name="css">CSS<br />
+<input type="checkbox" name="Javascript">JS<br />
+
+Comments: <br />
+<input type="textarea" name="Comments"><br />
+
+Another way of setting this up, with the same results are:<br />
+
+Comments:<br/>
+<!-- <label for="abstract">Comments</label> -->
+<textarea id="abstract" name="comments"></textarea>
+
+<br />
+<input type="submit" value="CLICK ME TO SUBMIT YOUR FORM!"><br />
+<input type="reset" value="Click here to reset the form">
+
+
+
+
+</form>
+</div>
+
+
+  </body>
+</html>
